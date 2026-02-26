@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIE SOUVERÄNEN | Macht für Alle</title>
+    <style>
+        :root {
+            --primary: #1a3a5f;
+            --accent: #2ecc71;
+            --text: #333;
+            --light: #f4f7f6;
+        }
+        body { font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; color: var(--text); background: var(--light); line-height: 1.6; }
+        header { background: var(--primary); color: white; padding: 60px 20px; text-align: center; }
+        .logo { font-size: 2.5em; font-weight: bold; letter-spacing: 2px; margin-bottom: 10px; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .hero-text { font-size: 1.2em; margin-bottom: 30px; opacity: 0.9; }
+        .cta-button { background: var(--accent); color: white; padding: 18px 35px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; font-weight: bold; font-size: 1.2em; transition: transform 0.2s; }
+        .cta-button:hover { transform: scale(1.05); }
+        .stats-box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-top: -40px; text-align: center; }
+        .progress-bar { background: #eee; height: 20px; border-radius: 10px; margin: 20px 0; overflow: hidden; }
+        .progress-fill { background: var(--accent); width: 28%; height: 100%; } /* Dynamisch anpassen */
+        .features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 40px 0; }
+        .feature-item { background: white; padding: 20px; border-radius: 8px; }
+        .feature-item h3 { color: var(--primary); margin-top: 0; }
+        footer { text-align: center; padding: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">DIE SOUVERÄNEN</div>
+    <p class="hero-text">Alles ist bereit. Die Satzung steht. Die Technik läuft.<br><strong>Nur du fehlst noch.</strong></p>
+    <a href="#anmeldung" class="cta-button">JETZT GRÜNDUNGSMITGLIED WERDEN</a>
+</header>
+
+<div class="container">
+    <div class="stats-box">
+        <h3>Gründungs-Status zwanzigsechsundzwanzig</h3>
+        <p>Wir benötigen 500 Gründungsmitglieder für die offizielle Anmeldung.</p>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <p><strong>142 von 500</strong> Plätzen besetzt.</p>
+    </div>
+
+    <section style="margin-top: 50px; text-align: center;">
+        <h2>Das Ende der Zuschauer-Demokratie</h2>
+        <p>In dieser Partei gibt es keine Hinterzimmer. Wir nutzen das <strong>Aequitas-Protokoll</strong> (Blockchain), damit jede Stimme zählt – anonym, sicher und unverfälschbar.</p>
+    </section>
+
+    <div class="features">
+        <div class="feature-item">
+            <h3>1. Absolute Gleichheit</h3>
+            <p>Vom ersten Tag an hast du dasselbe Stimmrecht wie jeder andere. Keine Wartefristen, keine Privilegien.</p>
+        </div>
+        <div class="feature-item">
+            <h3>2. Transparenz-Cockpit</h3>
+            <p>Jeder Cent an Spenden und jede Ausgabe ist für dich in Echtzeit einsehbar. Wir sind die erste gläserne Partei.</p>
+        </div>
+        <div class="feature-item">
+            <h3>3. Krisensicher</h3>
+            <p>Durch unser Dringlichkeits-Protokoll entscheiden wir schneller als herkömmliche Parteien – aber immer mit Basis-Kontrolle.</p>
+        </div>
+        <div class="feature-item">
+            <h3>4. Losverfahren</h3>
+            <p>Ämter werden zum Teil gelost. Jeder hat die faire Chance, die Bewegung nach außen zu repräsentieren.</p>
+        </div>
+    </div>
+
+    <section id="anmeldung" style="background: var(--primary); color: white; padding: 40px; border-radius: 10px; text-align: center;">
+        <h2>Sichere dir deinen Platz im Master-Dokument</h2>
+        <p>Lade dir das <strong>Weiße Buch der Souveränen</strong> herunter und trage dich für die Gründungsversammlung ein.</p>
+        <form style="display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto;">
+            <input type="text" placeholder="Vorname Nachname" style="padding: 12px; border-radius: 5px; border: none;">
+            <input type="email" placeholder="E-Mail-Adresse" style="padding: 12px; border-radius: 5px; border: none;">
+            <button type="submit" class="cta-button" style="border: none; cursor: pointer;">VORANMELDUNG ABSCHICKEN</button>
+        </form>
+        <p style="font-size: 0.8em; margin-top: 15px;">Kein Spam. Nur die Einladung zur Gründungsversammlung.</p>
+    </section>
+</div>
+
+<footer>
+    &copy; zwanzigsechsundzwanzig | DIE SOUVERÄNEN | Ein Projekt für echte Gleichheit.
+</footer>
+
+</body>
+</html>
